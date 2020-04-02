@@ -30,7 +30,8 @@ CREATE TABLE `m1919` (
   `cityH` varchar(45) DEFAULT NULL,
   `cityG` varchar(45) DEFAULT NULL,
   `role` varchar(45) DEFAULT 'Member',
-  KEY `idmembers19_idx` (`idmembers19`),
+  UNIQUE KEY `idmembers19_UNIQUE` (`idmembers19`),
+  KEY `idmembers_UNIQUE` (`idmembers19`),
   CONSTRAINT `idmembers19` FOREIGN KEY (`idmembers19`) REFERENCES `m_all` (`idmembers`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -41,7 +42,7 @@ CREATE TABLE `m1919` (
 
 LOCK TABLES `m1919` WRITE;
 /*!40000 ALTER TABLE `m1919` DISABLE KEYS */;
-INSERT INTO `m1919` VALUES (3,'French Central Meteorological Bureau','France','France','Paris','Paris','President'),(6,'Italian Central Bureau of Meteorology and Geodynamics','Italy','Italy','Rome','Rome','Member'),(10,'Dominion Meteorological Office','New Zealand','New Zealand','Wellington','Wellington','Member'),(14,'Ksara Observatory','France (French Syria)','Lebanon','Ksara','Ksara','Member'),(27,'Canadian Meteorological Service','Canada','Canada','Toronto','Toronto','Member'),(31,'French Central Meteorological Bureau','France','France','Paris','Paris','Member'),(46,'Aerological Station','Spain','Spain','Barcelona','Barcelona','Member'),(47,'Spanish Meteorological Service','Spain','Spain','Madrid','Madrid','Member'),(54,'Wageningen Agricultural College','The Netherlands','The Netherlands','Wageningen','Wageningen','Member'),(60,'Norwegian Meteorological Institute','Norway','Norway','Christiania','Oslo','Member'),(80,'Puy-de-Dôme Observatory','France','France','Clermont-Ferrand','Clermont-Ferrand','Member'),(82,'Swiss Geophysical Society and University of Lausanne','Switzerland','Switzerland','Lausanne','Lausanne','Member'),(97,'Agricultural Meteorological Service','France','France','Paris','Paris','Member'),(101,'Danish Meteorological Institute','Denmark','Denmark','Copenhagen','Copenhagen','Member'),(113,'Dominion Experimental Farm','Canada','Canada','Ottawa','Ottawa','Member'),(124,'Commonwealth Meteorological Service','Australia',' Australia','Melbourne','Melbourne','Member'),(126,'Swedish Hydrographical and Meteorological Service','Sweden','Sweden','Stockholm','Stockholm','Member'),(131,'British Meteorological Office','London','London','Great Britain','Great Britain','Member');
+INSERT INTO `m1919` VALUES (3,'French Central Meteorological Bureau','France','France','Paris','Paris','President'),(6,'Italian Central Office of Meteorology and Geodynamics','Italy','Italy','Rome','Rome','Member'),(10,'Dominion Meteorological Office','New Zealand','New Zealand','Wellington','Wellington','Member'),(14,'Ksara Observatory','France-Syria','Lebanon','Ksara','Ksara','Member'),(27,'Canadian Meteorological Service','Canada','Canada','Toronto','Toronto','Member'),(31,'French Central Meteorological Bureau','France','France','Paris','Paris','Member'),(46,'Catalan Meteorological Service','Spain','Spain','Barcelona','Barcelona','Member'),(47,'Spanish Meteorological Service','Spain','Spain','Madrid','Madrid','Member'),(54,'Wageningen Agricultural College','The Netherlands','The Netherlands','Wageningen','Wageningen','Member'),(60,'Norwegian Meteorological Service','Norway','Norway','Christiania','Oslo','Member'),(80,'Puy-de-Dôme Observatory','France','France','Clermont-Ferrand','Clermont-Ferrand','Member'),(82,'Swiss Geophysical Society and University of Lausanne','Switzerland','Switzerland','Lausanne','Lausanne','Member'),(97,'French Agricultural Meteorological Service','France','France','Paris','Paris','Member'),(101,'Danish Meteorological Service','Denmark','Denmark','Copenhagen','Copenhagen','Member'),(113,'Dominion Experimental Farm','Canada','Canada','Ottawa','Ottawa','Member'),(124,'Commonwealth Meteorological Service','Australia',' Australia','Melbourne','Melbourne','Member'),(126,'Swedish Hydrographical and Meteorological Service','Sweden','Sweden','Stockholm','Stockholm','Member'),(131,'British Meteorological Office','Great Britain','Great Britain','London','London','Member');
 /*!40000 ALTER TABLE `m1919` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-03-27 23:06:29
+-- Dump completed on 2020-04-02 23:52:28

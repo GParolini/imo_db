@@ -41,7 +41,7 @@ CREATE TABLE `m1913` (
 
 LOCK TABLES `m1913` WRITE;
 /*!40000 ALTER TABLE `m1913` DISABLE KEYS */;
-INSERT INTO `m1913` VALUES (3,'French Central Meteorological Bureau','France','France','Paris','Paris','President'),(18,'Berlin Agricultural Academy','Prussia','Germany','Berlin','Berlin','Member'),(21,'Meteorological Bureau of the Scientific Committee of the Department of Agriculture','Russia','Russia','Petrograd','St Petersburg','Member'),(32,'International Institute of Agriculture','Italy','Italy','Rome','Rome','Member'),(59,'Spitzenberg Observatory','Bavaria','Germany','Spitzenberg','Spitzenberg','Member'),(88,'Italian Central Office of Meteorology and Geodynamics','Italy','Italy','Rome','Rome','Member'),(101,'Danish Meteorological Service','Denmark','Denmark','Copenhagen','Copenhagen','Member'),(121,'Canadian Meteorological Service','Canada','Canada','Toronto','Toronto','Member');
+INSERT INTO `m1913` VALUES (3,'French Central Meteorological Bureau','France','France','Paris','Paris','President'),(18,'Berlin Agricultural Academy','Germany-Prussia','Germany','Berlin','Berlin','Member'),(21,'Meteorological Bureau of the Scientific Committee of the Department of Agriculture','Russia','Russia','Petrograd','St Petersburg','Member'),(32,'International Institute of Agriculture','Italy','Italy','Rome','Rome','Member'),(59,'Spitzenberg Observatory','Germany-Bavaria','Germany','Spitzenberg','Spitzenberg','Member'),(88,'Italian Central Office of Meteorology and Geodynamics','Italy','Italy','Rome','Rome','Member'),(101,'Danish Meteorological Service','Denmark','Denmark','Copenhagen','Copenhagen','Member'),(121,'Canadian Meteorological Service','Canada','Canada','Toronto','Toronto','Member');
 /*!40000 ALTER TABLE `m1913` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-03-27 23:06:29
+-- Dump completed on 2020-04-02 23:52:28
