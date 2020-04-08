@@ -1,6 +1,6 @@
 idmembers,surname,first_name,year_of_birth,year_of_death,field,attendance,biographical_ref
-1,Agostinho,José,1888,1978,Meteorology,2,http://siaram.azores.gov.pt/naturalistas/jose-agostinho/_texto1.html
-2,Åkerman,Ake,1887,1955,Agriculture,2,http://runeberg.org/nfcm/0522.html
+1,Agostinho,José,1888,1978,Meteorology,1,http://siaram.azores.gov.pt/naturalistas/jose-agostinho/_texto1.html
+2,Åkerman,Ake,1887,1955,Agriculture,6,http://runeberg.org/nfcm/0522.html
 3,Angot,"(Charles) Alfred",1848,1924,Meteorology,4,"[Obituary] https://www.persee.fr/doc/geo_0003-4010_1924_num_33_184_9497"
 4,Ångstrøm,"Anders Knutsson",1888,1981,Meteorology,2,https://www.smhi.se/kunskapsbanken/anders-angstrom-1.17714
 5,Askinazy,"Vladimir Osipovic",1873,1928,"Meteorology ",1,"[Obituary] https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49705422612"
@@ -17,20 +17,20 @@ idmembers,surname,first_name,year_of_birth,year_of_death,field,attendance,biogra
 16,Birkeland,"Bernt Johannes",1879,1955,"Meteorology ",2,NULL
 17,"de Boer","Herman Johannes",1904,1978,Meteorology,2,NULL
 18,Börnstein,"Richard Leopold",1852,1913,Meteorology,1,https://www.deutsche-biographie.de/gnd117616443.html
-19,Boughner,"Clarence Clarkson",1910,1985,"Meteorology ",1,"[Obituary] https://journals.ametsoc.org/doi/pdf/10.1175/1520-0477-66.11.1443"
+19,Boughner,"Clarence Clarkson",1910,1985,"Meteorology ",2,"[Obituary] https://journals.ametsoc.org/doi/pdf/10.1175/1520-0477-66.11.1443"
 20,Braak,Cornelis,1880,1973,"Meteorology ",5,"Dagblad voor Amersfoort (30th December 1947),  p. 1"
 21,Brounov,"Peter Ivanovich",1853,1927,Meteorology,3,NULL
 22,Bureau,Robert,1892,1965,"Meteorology ",3,http://www.meteofrance.fr/publications/glossaire/149707-bureau-robert
 23,Burgos,"Juan Jacinto",1915,1999,Agriculture,1,https://wbis.degruyter.com/biographic-document/S517-822-5
 24,"da Câmara","António Pereira de Sousa ",1901,1971,"Agriculture ",2,"https://pt.wikipedia.org/w/index.php?title=António_Pereira_de_Sousa_da_Câmara&oldid=4742783"4"
-25,Carton,Paul,1891,1969,"Agriculture ",1,http://academieoutremer.fr/academiciens/?aId=318
+25,Carton,Paul,1891,1969,"Agriculture ",8,http://academieoutremer.fr/academiciens/?aId=318
 26,Chaptal,Léon,1882,1949,"Agriculture ",3,"[Obituary] https://www.persee.fr/doc/geo_0003-4010_1950_num_59_314_12969"
-27,Connor,"Abraham James",1884,1955,Meteorology,1,NULL
+27,Connor,"Abraham James",1884,1955,Meteorology,7,NULL
 28,"La Cour",Dan,1876,1942,"Meteorology ",6,"[Obituary] https://doi.org/10.1029/TE047i003p00261"
 29,Deij,"Lodewijk Jan Leonardus",1907,1956,"Meteorology ",2,https://wbis.degruyter.com/biographic-document/L115-920-7
 30,Delcambre,Émile,1871,1951,"Meteorology ",4,https://www.idref.fr/107979942
 31,Dongier,Raphaël,1866,1929,Meteorology,5,"[Obituary] https://doi.org/10.1029/TE035i002p00119"
-32,Dop,Louis,1866,1935,"Agriculture ",1,https://data.bnf.fr/fr/12210964/louis_dop/
+32,Dop,Louis,1866,1935,"Agriculture ",7,https://data.bnf.fr/fr/12210964/louis_dop/
 33,Duckert,"Paul A. O. ",1900,1966,"Meteorology ",2,NULL
 34,Durst,"Charles Sumner",1888,1961,"Meteorology ",2,"[Obituary] https://doi.org/10.1017/S0373463300036055"
 35,Engler,Arnold,1869,1923,"Agriculture ",1,"[Obituary] Bull. Murithienne 109 (1991), pp. 139-140"
@@ -52,7 +52,7 @@ idmembers,surname,first_name,year_of_birth,year_of_death,field,attendance,biogra
 51,Girola,"Carlos de Alberti",1869,1934,"Agriculture ",2,"https://babel.hathitrust.org/cgi/pt?id=uc1.c2597706&view=1up&seq=2 (pp. 103-107)"
 52,Godard,Marcelin,1909,1994,"Agriculture ",2,"https://www.ac-sciences-lettres-montpellier.fr/academie_edition/sources/telecharger.php?rep=../fichiers_conf/&nom=MAISONNEUVE-2010-2.pdf. "
 53,Gomes,"Mário  de Azevedo",1885,1965,"Agriculture ",6,https://wbis.degruyter.com/biographic-document/S609-598-3
-54,"van Gulik",Dirk,1868,1935,Agriculture,1,https://nl.wikipedia.org/wiki/Dirk_van_Gulik_(1868-1935)
+54,"van Gulik",Dirk,1868,1935,Agriculture,2,https://nl.wikipedia.org/wiki/Dirk_van_Gulik_(1868-1935)
 55,Gumiński,Romuald,1896,1952,"Meteorology ",3,https://pl.wikipedia.org/w/index.php?title=Romuald_Gumiński&oldid=5114614”5
 56,Hagem,Oscar,1885,1982,"Agriculture ",4,https://no.wikipedia.org/w/index.php?title=Oscar_Hagem&oldid=18600448
 57,Hansen,"Hans Jensen",1875,1968,"Meteorology ",6,http://denstoredanske.dk/Dansk_Biografisk_Leksikon/Naturvidenskab_og_teknik/Fysiker/H.J._Hansen
@@ -81,7 +81,7 @@ idmembers,surname,first_name,year_of_birth,year_of_death,field,attendance,biogra
 80,Mathias,Émile,1861,1942,Meteorology,7,"http://henripoincarepapers.univ-
 nantes.fr/chp/text/mathias-e.html."
 81,Melander,Gustaf,1861,1938,Meteorology,5,
-82,Mercanton,"Paul Louis",1876,1963,Meteorology,1,"[Obituary] https://www.persee.fr/doc/globe_0398-3412_1963_num_103_1_3496"
+82,Mercanton,"Paul Louis",1876,1963,Meteorology,8,"[Obituary] https://www.persee.fr/doc/globe_0398-3412_1963_num_103_1_3496"
 83,"Meseguer y Marin",Enrique,1879,NULL,Meteorology,2,NULL
 84,Nagle,"Austen H.",1903,1984,Meteorology,1,NULL
 85,Normand,"Charles William Blyth",1889,1982,Meteorology,4,"
@@ -100,7 +100,7 @@ https://doi.org/10.1093/ref:odnb/37815"
 97,Rey,Pierre,1876,1946,Agriculture,8,"Le Progrès agricole et viticole, Année 124, No 2, 2007, pages 34-35"
 98,Ripley,"Philip Oscar",1900,1991,Agriculture,1,https://wbis.degruyter.com/biographic-document/W71039
 99,Roncali,Giorgio,1903,1975,Meteorology,2,https://wbis.degruyter.com/biographic-document/I300-287-3
-100,Roy,"A. K.",1900,1973,Meteorology,1,https://wbis.degruyter.com/biographic-document/E5009866
+100,Roy,"A. K.",1900,1973,Meteorology,2,https://wbis.degruyter.com/biographic-document/E5009866
 101,Ryder,"Carl H.",1858,1923,Meteorology,3,http://runeberg.org/nfcc/0710.html
 102,"Sabucedo del Arenal",Serafin,1889,1976,Meteorology,4,NULL
 103,Sanson,Joseph,1889,1958,Agriculture,6,https://data.bnf.fr/fr/10330558/joseph_sanson/
